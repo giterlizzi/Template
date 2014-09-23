@@ -27,7 +27,7 @@ Basic Usage
   $Template = new Template('/path/to/templates');
 
   $vars = array('TITLE' => 'First Page',
-                'NAME'  => 'John);
+                'NAME'  => 'John');
               
   $Template->process('layout.php', $vars);
 ?>
